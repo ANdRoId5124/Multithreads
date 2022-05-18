@@ -7,6 +7,7 @@ public class Main {
        thread3.start();
        thread3.join();
 
+
         thread2.start();
         thread2.join();
 

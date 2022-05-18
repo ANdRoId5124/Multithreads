@@ -3,8 +3,9 @@ public class Main {
         Thread thread2 = new Thread(new Thread2());
         Thread thread3 = new Thread(new Thread3());
         Thread thread1 = new Thread(new Thread1());
-        
+
        thread3.start();
+       thread3.join();
 
         thread2.start();
         thread2.join();
